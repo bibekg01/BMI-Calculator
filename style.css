@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+body{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 750px;
+    height: 620px;
+    background-color: grey;
+    background-image: url(https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    opacity: 0.8;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+heading h1{
+    text-align: center;
+    font-family: "Lilita One", sans-serif;;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#02f906, #f30404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+form{
+    background-color: transparent;
+}
+#container{
+    width: 650px;
+    height: 520px;
+    margin: 10px 50px;
+    background-color: transparent;
+}
+label#wgh{
+    background-color: transparent;
+    color: antiquewhite;
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Zen Dots", sans-serif;
+    letter-spacing: 2px;
+
+}
+label#hgh{
+    background-color: transparent;
+    color: antiquewhite;
+    position: absolute;
+    top: 235px;
+    left: 300px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Zen Dots", sans-serif;
+    letter-spacing: 2px;
+
+}
+#data{
+    height: 240px;
+    background-color: transparent;
+    display: grid;
+}
+#data input{
+    height: 40px;
+    width: 180px;
+    margin-left: 350px;
+    border-radius: 10px;
+    border: none;
+}
+#data .weight{
+    margin-top: 0px;
+    text-align: center;
+
+}
+#data .height{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#res{
+    height: 90px;
+    background-color: transparent;
+}
+#res #para{
+    height:45px;
+    width: 280px;
+    margin-left: 180px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+#btn{
+    height: 90px;
+    background-color: transparent;
+}
+#btn .calculate{
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: aliceblue;
+    background-color: rgb(0, 255, 0);
+}
+#btn .calculate:hover{
+    background-color: rgb(73, 245, 73);
+    cursor: pointer;
+}
+#btn .calculate:active{
+    background-color: rgb(131, 255, 131);
+
+}
+#btn .reset:hover{
+    background-color: rgb(242, 21, 21);
+    cursor: pointer;
+}
+#btn .reset:active{
+    background-color: rgb(238, 45, 45);
+
+}
+#btn .reset{
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 195px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: rgb(243, 7, 7);
+}
+#info{
+    height: 80px;
+    margin-top: 30px;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.38rem;
+}
+#info h5{
+    background-color: transparent;
+}
