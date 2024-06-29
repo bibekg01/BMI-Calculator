@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+        </style>
+</head>
+<body>
+    <heading><h1>BMI CALCULATOR</h1></heading>
+    <form>
+        <div id="container">
+            <div id="data">
+                <label for="weight" id="wgh" >Weight : </label><br/>
+                <label for="height" id="hgh" >Height : </label><br/>
+                <input type="number" class="weight" id="weight" placeholder="pound(lbs)">
+                <input type="number" class="height" id="height" placeholder="inches(in)">
+            </div>
+            <div id="res">
+                <p id="para">Your BMI is....</p>
+            </div>
+            <div id="btn">
+                <button type="button" class="calculate" id="calculate">Calculate</button>
+                <button type="submit" class="reset" id="reset">Reset</button>
+            </div>
+            <div id="info">
+                <h5>Normal : < 25kg/m2</h5>
+                <h5>Overweight : 25-29 kg/m2</h5>
+                <h5>Obese : >= 30 kg/m2</h5>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>
